@@ -1,0 +1,38 @@
+:root {
+  --paleblue: #8ed1fc;
+  --blue: #0073e1ba;
+  --darkblue: #001a33;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+  --lightgreen:  #7bdcb5;
+  --cyangreen:  #006084;
+  --lightblue :#eff9ff;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+.stroke-text{
+  margin: 0;
+  color: transparent;
+  -webkit-text-stroke-width:1px;
+  -webkit-text-stroke-color: white;
+}
+
+.blur{
+  background: rgba(253, 121, 43, 0.69);
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(150px);
+  z-index: -9;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: var(--blue);
+  color: white;
+  border-radius: 2px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+}
