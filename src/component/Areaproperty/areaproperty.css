@@ -1,8 +1,59 @@
 .area-property-container{
     background-color:var(--lightblue);
-    height: 70vh;
+    height: 80vh;
     width: 100%;
     margin-top: -5rem;
     position: absolute;
     z-index: -1;
+}
+
+.title{
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.title .title-description{
+    width: 45rem;
+    margin-left: 25rem;
+
+}
+
+.properties-location{
+    padding: 50px;
+    background-color: white;
+    margin: 3rem 10rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    box-shadow: 0 0  22px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.properties-location-detail{
+    display: flex;
+    gap: 20px;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.properties-location-detail img{
+    height: 70px;
+    width: 70px;
+    border-radius: 2px;
+
+}
+
+.properties-location-place p{
+    padding: 0px;
+    line-height: 30px;
+    margin: 0px;
+}
+
+.properties-location-place .name-of-place{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+ .listing-count{
+    font-size: 12px;
 }

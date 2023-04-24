@@ -1,0 +1,78 @@
+.categoryproperties-container{
+    background-color: var(--lightblue);
+    height: 52rem;
+    width: 100%;
+    margin-top: 6rem;
+    padding-top: 1px;
+
+}
+
+.title-main{
+    margin-top: -70px;
+}
+
+.grid-image{
+    margin-top: 3rem;
+    font-weight: 600;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.grid-image div:hover{
+    background:rgba(147, 147, 147, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.grid-image-left-upper{
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.grid-image-left-lower{
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.grid-image-left-lower div{
+    height: 200px;
+    width: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.grid-image-right-upper{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.grid-image-right-upper div{
+    height: 200px;
+    width: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.grid-image-right-lower{
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+
+.rent-property-container{
+    margin-top: 2rem;
+}

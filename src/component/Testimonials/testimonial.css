@@ -1,0 +1,88 @@
+.testimonial-container{
+    background-color: var(--lightblue);
+    height: 42rem;
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.testimonial-title-main{
+    text-align: center;
+}
+
+.testimonial-title-description{
+    width: 45rem;
+    margin-left: 25rem;
+    text-align: center;
+}
+
+.testimonial-main-content{
+    display: flex;
+    gap: 12rem;;
+    margin: 50px 0px 0px 64px;
+}
+
+.their-saying-content{
+    margin-top:10rem;
+    font-size: 20px;
+    width: 40rem;
+    letter-spacing: 1px;
+    line-height: 38px;
+}
+
+.changing-arrow{
+    display: flex;
+}
+.who-say{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--blue);
+}
+
+.who-say span{
+    letter-spacing: 2px;
+    color: black;
+}
+
+.changing-arrow-div{
+    margin-top: -2px;
+    margin-left: 10rem;
+}
+.changing-arrow img{
+    height: 25px;
+    width: 30px;
+    margin: 1rem;
+    background-color: black;
+    
+}
+.testimonial-picture{
+    margin-top: 50px;
+}
+.timage{
+    width: 20rem;
+    height: 25rem;
+    position: absolute;
+    z-index: 3;
+}
+
+.image-item span{
+    width: 20rem;
+    height: 25rem;
+    background-color: var(--blue);
+    position: absolute;
+    margin: 1rem 1rem;
+}
+
+.image-item .span2{
+    width: 20rem;
+    height: 25rem;
+    border: 3px solid var(--blue);
+    background-color: transparent;
+    border-radius: 5px;
+    position: absolute;
+    margin: -1rem -1rem;
+    z-index: 1;
+   
+}

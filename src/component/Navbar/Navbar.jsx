@@ -1,7 +1,7 @@
 import React from 'react'
 import './navbar.css'
-import github from '../../assets/github.png'
-import linkedin from '../../assets/linkedin.png'
+import facebook from '../../assets/facebook.png'
+import youtube from '../../assets/youtube.png'
 import instagram from '../../assets/instagram.png'
 import logo from '../../assets/logo1.png'
 
@@ -11,8 +11,8 @@ const Navbar = () => {
             <section className="upper-navbar">
                 <div className="navbar-socialmedia">
                     <div className="navbar-socialmedia-img-div">
-                        <img className='navbar-socialmedia-img' src={github} alt="" />
-                        <img className='navbar-socialmedia-img' src={linkedin} alt="" />
+                        <img className='navbar-socialmedia-img' src={facebook} alt="" />
+                        <img className='navbar-socialmedia-img' src={youtube} alt="" />
                         <img className='navbar-socialmedia-img' src={instagram} alt="" />
                     </div>
                 </div>

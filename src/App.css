@@ -6,6 +6,7 @@
   --lightgreen:  #7bdcb5;
   --cyangreen:  #006084;
   --lightblue :#eff9ff;
+  --darkgray : #ffff
 }
 
 ::-webkit-scrollbar{
@@ -35,4 +36,9 @@
   font-size: 14px;
   border: none;
   outline: none;
+}
+
+.heading{
+  font-size: 36px;
+  font-weight: 600;
 }
